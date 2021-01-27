@@ -16,8 +16,13 @@ const server = http.createServer((req, res)=>{
     if(url == '/'){
         res.end(home);
     }
+
+    
     else if(url == '/about'){
-        res.end(about);
+
+
+
+        res.end(about );
     }
     else if(url == '/services'){
         res.end(services);
